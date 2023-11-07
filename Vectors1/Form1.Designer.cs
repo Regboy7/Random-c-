@@ -1,4 +1,7 @@
-﻿namespace Vectors1
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace Vectors1
 {
     partial class Form1
     {
@@ -20,6 +23,24 @@
             base.Dispose(disposing);
         }
 
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            base.OnPaint(e);
+
+            // Create a Graphics object to draw on the form
+            Graphics g = e.Graphics;
+
+            // Create a Pen and a Brush for drawing
+            Pen pen = new Pen(Color.Blue, 2);
+            Brush brush = new SolidBrush(Color.Red);
+
+            // Draw a rectangle
+            g.DrawArc(pen, 100, 100, 100, 100, 0, 360);
+
+            // Dispose of the Pen and Brush
+            pen.Dispose();
+            brush.Dispose();
+        }
         #region Windows Form Designer generated code
 
         /// <summary>
