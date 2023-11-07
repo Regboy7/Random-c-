@@ -1,0 +1,4 @@
+C:\Users\isaachain\Source\Repos\Regboy7\Random-c-\Vectors1\obj\Debug\Vectors1.csproj.AssemblyReference.cache
+C:\Users\isaachain\Source\Repos\Regboy7\Random-c-\Vectors1\obj\Debug\Vectors1.Properties.Resources.resources
+C:\Users\isaachain\Source\Repos\Regboy7\Random-c-\Vectors1\obj\Debug\Vectors1.csproj.GenerateResource.cache
+C:\Users\isaachain\Source\Repos\Regboy7\Random-c-\Vectors1\obj\Debug\Vectors1.csproj.CoreCompileInputs.cache
