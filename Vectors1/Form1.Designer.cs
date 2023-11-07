@@ -36,7 +36,7 @@ namespace Vectors1
 
             // Draw a rectangle
             g.DrawArc(pen, 100, 100, 100, 100, 0, 360);
-
+            g.DrawLine(pen, 100, -150, -100, 150);
             // Dispose of the Pen and Brush
             pen.Dispose();
             brush.Dispose();
